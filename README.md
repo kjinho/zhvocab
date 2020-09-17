@@ -5,9 +5,9 @@ Chinese vocabulary.
 
 The project seeks to rely upon the following resources:
 
-- CEDICT
-- SUBTLEX-CH
-- Anki
+- [CEDICT](https://www.mdbg.net/chinese/dictionary?page=cedict)
+- [SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch)
+- [Anki](https://apps.ankiweb.net)
 
 ## Usage
 
