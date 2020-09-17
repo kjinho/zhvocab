@@ -35,14 +35,17 @@ To query the database, use the functions ```search-traditional-word``` and ```se
 ;;         "/row/line/commercial firm/line of business/profession/to rank (first, second etc) among one's siblings (by age)/(in data tables) row/(Tw) column/")
 ;;       #("xing2"
 ;;         "/to walk/to go/to travel/a visit/temporary/makeshift/current/in circulation/to do/to perform/capable/competent/effective/all right/OK!/will do/behavior/conduct/Taiwan pr. [xing4] for the behavior-conduct sense/")))
+
 (search-traditional-word sqldb "隻")
 ;;=> '#("只"
 ;;      (#("zhi1"
 ;;         "/classifier for birds and certain animals, one of a pair, some utensils, vessels etc/")))
+
 (search-traditional-word sqldb "隻")
 ;;=> '#("只"
 ;;      (#("zhi1"
 ;;         "/classifier for birds and certain animals, one of a pair, some utensils, vessels etc/")))
+
 (search-simplified-word sqldb "只")
 ;;=> '(#("只" (#("zhi3" "/only/merely/just/but/")))
 ;;     #("祇" (#("zhi3" "/variant of 只[zhi3]/") #("qi2" "/earth-spirit/peace/")))
