@@ -14,7 +14,9 @@
 
 (provide parse-cedict-line
          insert-words-into-db-one-pass
-         initialize-db)
+         initialize-db
+         search-traditional-word
+         search-simplified-word)
 
 
 (module+ test
@@ -24,7 +26,7 @@
   (define testdata3 "衝擊 冲击 [chong1 ji1] /to attack/to batter/(of waves) to pound against/shock/impact/"))
 
 
-(define sqldb (sqlite3-connect #:database "test.db"))
+;; (define sqldb (sqlite3-connect #:database "test.db"))
 
                      
 (define (process-file-by-line filename func)
